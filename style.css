@@ -1,6 +1,6 @@
 /*....... fonts .......*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+
 
 /* common */
 body{
@@ -64,3 +64,4 @@ body{
 .banner-image:hover img{
     transform: translate(10px) scale(1.1) rotate(5deg);
 }
+/* top banner style end*/
