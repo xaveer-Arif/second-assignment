@@ -189,3 +189,45 @@ span a{
 }
 
 /* <!-- users comment style end--> */
+
+/* footer style start */
+footer{
+    margin-top: -50px;
+    
+}
+.footer-frame{
+    width: 483px;
+    height: 213px;
+    position: relative;
+    left: 35%;
+}
+
+.footer-image {
+    height: 110px;
+    width: 480px;
+
+}
+.footer-image img{
+    width: 90%;
+}
+.social-icon{
+    width: 170px;
+    height: 32px;
+    margin: 20px 160px;
+    
+}
+.fab{
+    background: rgba(150, 155, 171, 1);
+    border-radius: 50%;
+    font-size: 17px;
+    margin: 0;
+    padding: 4px;
+    opacity: 0.7;
+}
+.coperight{
+    font-family: 'Poppins';
+    margin: 0 120px;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* footer style end */
