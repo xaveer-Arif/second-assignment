@@ -240,8 +240,8 @@ footer{
     .users{
         display: none;
     }
-    footer{
-        display: none;
+    main{
+        width: 10px;
     }
 
 /*  ................. */
@@ -336,5 +336,36 @@ article {
     }
 
 
-    /* for users comment*/
+    /* for footer*/
+    footer{
+        margin-top: 10px;
+        
+    }
+    .footer-frame{
+        width: 275px;
+        height: 213px;
+        position: relative;
+        left: 1%;
+    }
+    .footer-image {
+        height: 50px;
+        width: 300px;
     
+    }
+    .footer-image img{
+        width: 90%;
+    }
+    .social-icon {
+        width: 125px;
+        height: 15px;
+        margin: 20px 96px;
+    }
+    .coperight {
+        margin: 20px 0px 0 61px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    
+
+}
