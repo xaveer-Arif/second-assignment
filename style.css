@@ -243,6 +243,9 @@ footer{
     main{
         width: 10px;
     }
+    footer{
+        display: none;
+    }
 
 /*  ................. */
 .banner-section{
