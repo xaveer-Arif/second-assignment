@@ -243,9 +243,9 @@ footer{
     main{
         width: 10px;
     }
-    footer{
+    /* footer{
         display: none;
-    }
+    } */
 
 /*  ................. */
 .banner-section{
@@ -340,7 +340,7 @@ article {
 
 
     /* for footer*/
-    /* footer{
+    footer{
         margin-top: 10px;
         
     }
@@ -367,7 +367,7 @@ article {
         margin: 20px 0px 0 61px;
         font-size: 14px;
         line-height: 24px;
-    } */
+    }
 
     
 
