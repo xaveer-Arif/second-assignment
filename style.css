@@ -231,3 +231,110 @@ footer{
     line-height: 24px;
 }
 /* footer style end */
+/*............. media queries .............. */
+/* mobile devicw */
+@media only screen and (max-width:688px){
+    /* body{
+        overflow-x: hidden;
+    } */
+    .users{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+
+/*  ................. */
+.banner-section{
+    width: 360px;
+    height: 600px;
+    background: #2D25A0;
+    margin-bottom: 47px;
+    
+
+}
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+}
+.banner-detail{
+    width: 278px;
+    height: 138px;
+    margin: 52px 66px 30px 16px;
+}
+.banner-title{
+    font-family: 'Poppins';
+font-weight: bold;
+font-size: 36px;
+line-height: 50px;
+
+}
+.banner-image{
+    width: 329px;
+    height: 259.17px;
+}
+button{
+    width: 138px;
+    height: 44px;
+    margin-bottom: 60px;
+    background: #fb2525;
+    border-radius: 25px;
+}
+.banner-image img{
+    width: 100%;
+    transition: transform linear .5s;
+}
+.banner-image:hover img{
+    transform: translate(10px) scale(1.1) rotate(5deg);
+}
+/*  for article */
+body{
+    overflow-x: hidden;
+}
+article {
+    padding: 0;
+    position: relative;
+}
+
+.boxs{
+    display: grid;
+    grid-template-columns: repeat(1, 1px);
+    margin: 0px;
+    padding: 0px;
+   
+}
+    
+.player-box{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: 0 15px 24px;
+    padding: 0px;
+}
+    /* for log in form */
+    .login-container{
+        position: relative;
+        left: 20px;
+    }
+    form{
+        margin-bottom: 0;
+    }
+
+    button{
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    }
+    span{
+        margin: 0;
+    }
+    span a{
+        color: dimgray;
+        text-decoration: none;
+    }
+
+
+    /* for users comment*/
+    
